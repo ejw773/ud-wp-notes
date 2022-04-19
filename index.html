@@ -28,10 +28,10 @@
         <p>Why do we sometimes need to "echo" the results of a function, and other times not? If the function returns the value, nothing will show unless you echo the results. However, if the function itself already echos something out, you won't need to echo the result when you call the function.</p>
         <p>In WordPress, we have the following functions:
           <ul>
-            <li>the_title();</li>
-            <li>get_the_title();</li>
-            <li>the_ID();</li>
-            <li>get_the_ID();</li>
+            <li class="wp-func">the_title();</li>
+            <li class="wp-func">get_the_title();</li>
+            <li class="wp-func">the_ID();</li>
+            <li class="wp-func">get_the_ID();</li>
           </ul>
           </p>
           <p>What's the difference? The rule is: If it says "get", WordPress simply gets the value for you; without "get," WordPress will echo out the result.
@@ -40,6 +40,7 @@
       <li>
         <h3>18: Menu of Child Page Links</h3>
         <h4>Current Code-a-Long "Bookmark"</h4>
+        <p>The function <span class="wp-func">wp_list_pages()</span> </p>
       </li>
     </ul>
     <p></p>
